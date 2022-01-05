@@ -2,6 +2,7 @@ from _typeshed import Self
 import requests
 from lxml import html
 url = "https://annuaire.uha.fr/index.php"
+co = str(input("Valeur token :"))
 cookies = {'Annuaire': 'ST-289323-4pnACrW6JoNR5Mz1Smv-LEfnSvA-cas6uhafr'}
 class anuaire:
 	def __init__(self, url):
